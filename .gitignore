@@ -1,0 +1,28 @@
+# 시크릿 키가 들어있는 파일 — 절대 커밋 금지
+.env
+
+# 생성된 인덱스(벡터 DB)
+storage/
+
+# 사용자가 넣은 실제 문서 (샘플만 커밋)
+docs/*
+!docs/README.md
+!docs/sample_employee_handbook.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
